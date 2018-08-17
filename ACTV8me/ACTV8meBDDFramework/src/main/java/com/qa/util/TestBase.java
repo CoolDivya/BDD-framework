@@ -27,6 +27,7 @@ public class TestBase {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
 		driver.get("http://dashboard-staging-v4.actv8technologies.com/#/login");
 	}
 }

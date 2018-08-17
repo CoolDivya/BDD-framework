@@ -31,10 +31,10 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void enters_username_and_password()
+	public void enters_username_and_password(String uname, String pwd)
 	{
-		username.sendKeys("superadmin@app.com");
-		password.sendKeys("password");
+		username.sendKeys(uname);
+		password.sendKeys(pwd);
 	}
 	
 	
@@ -46,7 +46,7 @@ public class LoginPage extends TestBase{
 	public Content_Advanced_SearchPage select_application() throws InterruptedException
 	{
 		select_app.click();
-		
 		return new Content_Advanced_SearchPage();
+		
 	}
 }

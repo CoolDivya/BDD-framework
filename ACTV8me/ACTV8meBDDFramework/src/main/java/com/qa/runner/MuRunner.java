@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions
-(features={"D:\\Divyata QA\\ACTV8me\\ACTV8meBDDFramework\\src\\main\\java\\com\\qa\\features\\ACTV8meTest.feature"},
+(features={"D:\\Divyata QA\\ACTV8me\\ACTV8meBDDFramework\\src\\main\\java\\com\\qa\\features\\test.feature"},
  glue={"com"},
 plugin = { "pretty", "html:target/test-reports" }
 //monochrome=true, //display console output in readable format

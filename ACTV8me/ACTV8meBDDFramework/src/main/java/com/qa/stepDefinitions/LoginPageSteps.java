@@ -6,11 +6,12 @@ import com.qa.util.TestBase;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 public class LoginPageSteps extends TestBase{
 
-	LoginPage loginpage;
-	Content_Advanced_SearchPage search;
+	/*LoginPage loginpage;
+	
 	
 	@Given("^user opens browser$")
 	public void user_opens_browser() throws Throwable {
@@ -35,8 +36,25 @@ public class LoginPageSteps extends TestBase{
 	@Then("^click on application$")
 	public void user_select_appliation() throws Throwable {
 		
-	search= loginpage.select_application();
+	loginpage.select_application();
 	    
 	}
+	
+	
+	
+	@Then("^user is on Content page$")
+	public void user_is_on_Content_page() throws Throwable {
+	    
+		
+	//	loginpage.user_is_on_Content_page();
+		
+	}
+
+	@Then("^click on advanced serach button and open search winodw$")
+	public void click_on_advanced_serach_button_and_open_search_winodw() throws Throwable {
+		
+	//	loginpage.click_on_advanced_serach_button_and_open_search_winodw();
+	   
+}*/
 
 }
